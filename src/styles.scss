@@ -1,0 +1,179 @@
+/* You can add global styles to this file, and also import other style files */
+.container-fluid {
+    padding: 0px !important;
+  }
+
+p {
+    font-family: 'sofia pro';
+    font-size: 14px;
+    font-weight: 100;
+    //text-align: justify !important;
+  }
+.header1{
+    padding-top: 150px;padding-bottom: 98px; margin-left: 101px;
+}  
+.headerSVG{
+    width:20px;height:20px
+}
+
+//CUSTOM TEXT COLOR
+.textWhite{
+color: #FFFFFF;
+}  
+.textBlack{
+    color: #333333;
+}
+.textDarkBlack{
+    color: #000000;
+}
+.text999999{
+    color: #999999;
+}
+.headerColor{
+    color: #FFC66A;
+} 
+.sideheaderColor{
+    color: #1C7D99;
+}
+
+//CUSTOM FONT SIZE
+.font10{
+    font-size: 10px;
+}
+.font14{
+    font-size: 14px;
+}
+.font18{
+    font-size: 18px;
+}
+.fontSize20{
+    font-size: 20px;
+}
+.font25{
+    font-size: 25px;
+}  
+.font32{
+    font-size: 32px;
+}
+.font50{
+    font-size: 50px;
+}
+
+//CUSTOM FONT WEIGHT
+.fontWeight300{
+    font-weight: 300;
+}
+.fontWeight{
+    font-weight: 500;
+}
+.fontBold{
+    font-weight: bold;
+}
+
+//CUSTOM BORDER RADIUS
+.borderTopRightRadius8{
+    border-top-right-radius: 8px;
+}
+.borderBottomRightRadius8{
+    border-bottom-right-radius: 8px;
+}
+.borderTopLeftRadius8{
+    border-top-left-radius: 8px;
+}
+.borderBottomLeftRadius8{
+    border-bottom-left-radius: 8px;
+}
+.borderRadius8{
+    border-radius: 8px;
+}
+.borderRadius12{
+    border-radius: 12px;
+}
+
+//CUSTOM BORDER COLOR
+.borderColorNone{
+    border-color: none;
+}
+
+//CUSTOM PADDING
+.paddingTop20{
+    padding-top: 20px;
+}
+.padding0{
+    padding: 0px;
+}
+.padding5{
+padding: 5px;
+}
+.padding30{
+    padding: 30px;
+}
+.padding20{
+    padding: 20px;
+}
+.paddingLeft10{
+    padding-left: 10px;
+}
+.paddingLeft38{
+    padding-left: 38px;
+}
+.paddingLeft102{
+    padding-left: 102px;
+}
+.paddingLeft0{
+    padding-left: 0px;
+}
+.paddingRight0{
+    padding-right: 0px;
+}
+.paddingRight20{
+    padding-right: 20px;
+}
+.paddingTop60{
+    padding-top: 60px;
+}
+.paddingBottom20{
+    padding-bottom: 20px;
+}
+.paddingBottom60{
+    padding-bottom: 60px;
+}
+
+//CUSTOM MARGIN
+.margin0{
+    margin: 0px;
+}
+.marginBottom0{
+    margin-bottom: 0px;
+}
+.marginBottom5{
+    margin-bottom: 5px;
+}
+.marginBottom20{
+    margin-bottom: 20px;
+}
+
+//CUSTOM BACKGROUND-COLOR
+.boxBgColorWhite{
+    background-color: #ffffff5e;
+}
+.boxBgColorDeepWhite{
+    background-color: #fefefec4;
+}
+.boxBgColorBlack{
+    background-color: #0000008a;
+}
+.boxBgColorTransparent{
+    background-color: #bec4c129;
+}
+
+//CUSTOM
+.overflowHidden{
+    overflow: hidden;
+}
+.floatRight{
+    float: right;
+}
+.overflowScroll{
+    overflow: scroll;
+}

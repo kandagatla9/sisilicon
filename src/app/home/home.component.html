@@ -1,0 +1,475 @@
+<div class="container-fluid" id="{{'homeId'}}">
+  <section class="banner_image1">
+    <video  id="myVideo"  #video (canplay)="video.play()" autoplay muted loop
+    (loadedmetadata)="video.muted = true" class="home_video">
+      <source src="../../assets/silicon_home_video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <script>
+      var video = document.getElementById("myVideo");
+      var btn = document.getElementById("myBtn");
+  
+      function myFunction() {
+        if (video.paused) {
+          video.play();
+          btn.innerHTML = "Pause";
+        } else {
+          video.pause();
+          btn.innerHTML = "Play";
+        }
+      }
+      </script>
+  </section>
+</div>
+
+<div class="bgImg2">
+  <div class="section1">
+    <div class="row">
+      <div class="col-6">
+        <div class="row">
+          <div class="col-6">
+            <img src="../../assets/home/Design 1.png" alt="">
+          </div>
+          <div class="col-6 marginTop15">
+            <img src="../../assets/home/Design 2.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 marginTop40">
+            <img src="../../assets/home/Design 3.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 marginTop25">
+            <img src="../../assets/home/Design 4.png" alt="">
+          </div>
+        </div>
+        
+        
+       
+        
+      </div>
+      <div class="col-6 paddingTop60">
+        <p class="sideheaderColor font32 fontWeight300">We deal With The Aspects Of Professional IT Services</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="row paddingBottom20">
+          <div class="col-6 paddingLeft0">
+            <div class="card borderRadius12 padding20 boxBgColorBlack">
+              <p class="headerColor fontBold fontSize20"><img src="../../assets/whoweare/Innovation - Yellow.png" alt=""> Innovation</p>
+              <p class="textWhite marginBottom0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="col-6 paddingRight0">
+            <div class="card borderRadius12 padding20 boxBgColorBlack">
+              <p class="headerColor fontBold font18">
+                <img src="../../assets/whoweare/Service Excellence - yellow.png" alt=""> Service Excellence</p>
+              <p class="textWhite marginBottom0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>   
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="sideheaderColor fontBold">Know more</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Our Service Start-->
+<div class="bgImg3">
+  <div class="container">
+    <div class="row paddingBottom60 paddingTop60">
+      <div class="col-5">
+        <p class="textBlack fontBold">Our Service</p>
+        <p class="textWhite font32 fontWeight300">We Offer a Wide Variety of IT Services</p>
+      </div>
+      <div class="col-7">
+        <p class="textBlack">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+           ex ea commodo consequat.</p>
+        <p class="headerColor floatRight"> Know more</p>
+      </div>
+    </div>
+  </div>
+  <!--change to carousel-->
+  <div class="row paddingBottom60">
+    <div class="col-3  ">
+      <div class="card borderRadius12 ourServiceBgImg1">
+        <div class="padding5 borderRadius12 height256 boxBgColorDeepWhite" >
+          <p class="sideheaderColor fontBold text-center fontSize20 marginTopPlus40">Cloud Computing</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card borderRadius12 ourServiceBgImg2">
+        <div class="padding5 borderRadius12 height256 boxBgColorDeepWhite">
+          <p class="sideheaderColor fontBold text-center fontSize20 marginTopPlus40">Mobile App Development</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card borderRadius12 ourServiceBgImg3">
+        <div class="padding5 borderRadius12 height256 boxBgColorDeepWhite">
+          <p class="sideheaderColor fontBold text-center fontSize20 marginTopPlus40">Recruitment Process Outsourcing</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card borderRadius12 ourServiceBgImg4">
+        <div class="padding5 borderRadius12 height256 boxBgColorDeepWhite">
+          <p class="sideheaderColor fontBold text-center fontSize20 marginTopPlus40">Sales Force</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+
+</div>
+<!--Our Service End-->
+
+<!--Our Industries Start-->
+<div class="bgImg4">
+  <p class="text-center paddingTop60 sideheaderColor fontBold">Our Services</p>
+  <p class="textBlack font32 text-center">How Ghy Help of Your Business Grow And Successful</p>
+  <div class="container">
+    <div class="row paddingBottom60 paddingTop60" >
+      <div class="col-3">
+        <div class="card borderRadius12 padding20 boxBgColorBlack">
+          <img class="industriesImg" src="../../assets/home/Home - Finance icon.png" alt="">
+          <p class="headerColor fontBold text-center fontSize20">Finance</p>
+          <p class="textWhite marginBottom0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12 padding20 boxBgColorBlack">
+          <img class="industriesImg" src="../../assets/home/Home - Information Technology icon.png" alt="">
+          <p class="headerColor fontBold font18">Information Technology</p>
+          <p class="textWhite marginBottom0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12 padding20 boxBgColorBlack">
+          <img class="industriesImg" src="../../assets/home/Home - Retail icon.png" alt="">
+          <p class="headerColor fontBold text-center fontSize20">Retail</p>
+          <p class="textWhite marginBottom0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12 padding20 boxBgColorBlack">
+          <img class="industriesImg" src="../../assets/home/Home - Banking icon.png" alt="">
+          <p class="headerColor fontBold text-center fontSize20">Banking</p>
+          <p class="textWhite marginBottom0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Our Industries End-->
+<!--Our Achievements Start-->
+<div class="bgImg5">
+  <p class="text-center paddingTop60 sideheaderColor fontBold">Our Achievements</p>
+  <p class="textBlack font32 text-center">What Makes us Special ?</p>
+
+  <div class="container">
+    <div class="row paddingBottom60" >
+      <div class="col-3">
+        <div class="card borderRadius12 padding20 boxBgColorBlack">
+          <img class="achievementsImg" src="../../assets/home/home industry verticals icon.png" alt="">
+          <p class="textWhite  text-center fontSize20">Industry Verticals</p>
+          <p class="headerColor  text-center marginBottom0 font50">8 +</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12 padding20 boxBgColorBlack">
+          <img class="achievementsImg" src="../../assets/home/home - solution partners icon.png" alt="">
+          <p class="textWhite  text-center fontSize20">Solution Partners</p>
+          <p class="headerColor  text-center marginBottom0 font50">20 +</p>
+        </div>
+        
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12 padding20 boxBgColorBlack">
+          <img class="achievementsImg" src="../../assets/home/home - Business Accolades icon.png" alt="">
+          <p class="textWhite  text-center fontSize20">Business Accolades</p>
+          <p class="headerColor  text-center marginBottom0 font50">50 +</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12 padding20 boxBgColorBlack">
+          <img class="achievementsImg" src="../../assets/home/Home - Customers icon.png" alt="">
+          <p class="textWhite  text-center fontSize20">Customers</p>
+          <p class="headerColor  text-center marginBottom0 font50">500 +</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<!--Our Achievements End-->  
+
+<!---From Our Blog Start-->  
+<div class="bgImg6">
+  <div class="container">
+    <div class="row paddingBottom60 paddingTop60">
+      <div class="col-6">
+        <p class="sideheaderColor fontBold">from our blog</p>
+        <p class="font32 textBlack fontWeight300">Here's What's Hapening</p>
+      </div>
+      <div class="col-6">
+        <p class="headerColor floatRight">View all</p>
+      </div>
+    </div>
+    <div class="row paddingBottom60">
+      <div class="col-3">
+        <div class="card borderRadius12">
+          <img src="../../assets/home/blog 1.png" alt="">
+          <p class="marginBottom0 padding20">The Next Big Challenge for Content Marketer</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12">
+          <img src="../../assets/home/blog 2.png" alt="">
+          <p class="marginBottom0 padding20">The Next Big Challenge for Content Marketer</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12">
+          <img src="../../assets/home/blog 3.png" alt="">
+          <p class="marginBottom0 padding20">The Next Big Challenge for Content Marketer</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12">
+          <img src="../../assets/home/blog 4.png" alt="">
+          <p class="marginBottom0 padding20">The Next Big Challenge for Content Marketer</p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center sideheaderColor fontBold">Testimonials</p>
+    <p class="textBlack font32 fontWeight300">See what our employees and clients say....We are eternally gratefully.</p>
+    <!-- change to testimonials-->
+    <!---carousel-->
+    <div class="container-xl">
+      <div class="row paddingBottom60">
+        <div class="col-lg-10 mx-auto">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>   
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-4">
+                <div class="img-box">
+                  <img src="../../assets/home/home - testimonals profile image.png" alt="">
+                </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="borderRadius12 boxBgColorWhite">
+                      <p class="textBlack padding10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                    </div>
+                    <p class="sideheaderColor fontBold">Robert Doe</p>
+                    <p class="textBlack">Manager, SRT Solution</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-4">
+                <div class="img-box">
+                  <img src="../../assets/home/home - testimonals profile image.png" alt="">
+                </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="borderRadius12 boxBgColorWhite">
+                      <p class="textBlack padding10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                    </div>
+                    <p class="sideheaderColor fontBold">Robert Doe</p>
+                    <p class="textBlack">Manager, SRT Solution</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-4">
+                <div class="img-box">
+                  <img src="../../assets/home/home - testimonals profile image.png" alt="">
+                </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="borderRadius12 boxBgColorWhite">
+                      <p class="textBlack padding10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                    </div>
+                    <p class="sideheaderColor fontBold">Robert Doe</p>
+                    <p class="textBlack">Manager, SRT Solution</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--carousel-->
+  </div>
+</div>
+<!--- from our blogs end--->
+<!---CSR Activities start-->
+<div class="bgImg7">
+  <p class="text-center paddingTop60 sideheaderColor fontBold">CSR Activities</p>
+  <p class="textBlack font32 text-center">Creation timelines for the standard</p>
+  <div class="container">
+    <div class="row paddingBottom20">
+      <div class="col-6">
+        <div class="card borderRadius12 csrActivitiesBgImg1">
+          <div class="padding5 height256 boxBgColorDeepWhite">
+            <p class="sideheaderColor marginBottom0 marginTop30">Name of the event</p>
+            <p>Location</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12 csrActivitiesBgImg2">
+          <div class="padding5 borderRadius12 boxBgColorBlack height256">
+            <p class="textWhite marginBottom0 marginTop70">Name of the event</p>
+            <p class="textWhite">Location</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12 csrActivitiesBgImg3">
+          <div class="padding5 borderRadius12 boxBgColorBlack height256">
+            <p class="textWhite marginBottom0 marginTop70">Name of the even</p>
+            <p class="textWhite">Location</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="card borderRadius12 csrActivitiesBgImg4">
+          <div class="padding5 borderRadius12 boxBgColorBlack height256">
+            <p class="textWhite marginBottom0 marginTop70">Name of the event</p>
+            <p class="textWhite">Location</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card borderRadius12 csrActivitiesBgImg5">
+          <div class="padding5 borderRadius12 boxBgColorBlack height256">
+            <p class="textWhite marginBottom0 marginTop30">Name of the event</p>
+            <p class="textWhite">Location</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card borderRadius12 csrActivitiesBgImg6">
+          <div class="padding5 borderRadius12 boxBgColorBlack height256">
+            <p class="textWhite marginBottom0 marginTop70">Name of the event</p>
+            <p class="textWhite">Location</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-center">next</p>
+  </div>
+  </div>
+<!--CSR Activities End-->  
+
+<!--Auto Play Carousel start-->
+<div class="paddingBottom60 paddingTop60">
+  <div class="slider" >
+    <div class="slide-track">
+      <div class="slide">
+        <img class="paddingRight20" src="../../assets/home/partners/amazon-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img  class="paddingRight20" src="../../assets/home/partners/ibm-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img  class="paddingRight20" src="../../assets/home/partners/lenovo-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img  class="paddingRight20" src="../../assets/home/partners/mcafee-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img  class="paddingRight20" src="../../assets/home/partners/netmagic-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img  class="paddingRight20" src="../../assets/home/partners/nutanix-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img  class="paddingRight20" src="../../assets/home/partners/vmware-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img class="paddingRight20" src="../../assets/home/partners/amazon-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img  class="paddingRight20" src="../../assets/home/partners/ibm-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img  class="paddingRight20" src="../../assets/home/partners/lenovo-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img  class="paddingRight20" src="../../assets/home/partners/mcafee-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img class="paddingRight20" src="../../assets/home/partners/netmagic-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img class="paddingRight20" src="../../assets/home/partners/nutanix-partner.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img class="paddingRight20" src="../../assets/home/partners/vmware-partner.png" height="100" width="250" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Auto play carousel end-->
+
+<!--Contact us start-->
+<div class="container">
+  <p class="sideheaderColor fontBold text-center">Contact us</p>
+  <p class="textBlack font32 text-center fontWeight300">We Always Here To Help s You</p>
+  <div class="container">
+     
+      <div class="row borderRadius12 homeContactUsForm">
+        <div class="col-6 padding0">
+          <img class="homeContactUsFormImg" src="../../assets/home/Rectangle 6330.png" alt="">
+        </div>
+        <div class="col-6 padding30">
+          <div class="row marginBottom5">
+            <div class="col-6 padding0 margin0">
+              <p class="margin0">First Name</p>
+              <input type="text" class="form-control">
+            </div>
+            <div class="col-6 paddingRight0">
+              <p class="margin0">Last Name</p>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <p class="margin0">Email ID</p>
+          <input type="text" class="form-control marginBottom5">
+          <p class="margin0">Message</p>
+          <textarea class="form-control" name="" id="" cols="30" rows="4"></textarea><br>
+          <button class="btn btn-primary floatRight">Send</button>
+        </div>
+      </div>
+     
+  </div>
+</div><br>
+<!--Contact us End-->
+<app-footer></app-footer>
+

@@ -1,0 +1,47 @@
+@media screen and (min-width:992px) {
+    .navbarBrand{
+        margin-left: 10%;
+    }
+    .navbarOtherThanBrand{
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:991px) {
+    .navbarBrand{
+        margin-left: 40%;
+    }
+    .navbarOtherThanBrand{
+        text-align: center;
+        background-color: rgb(27, 25, 25);
+    }
+}
+nav{
+    a{
+        color: white;
+    }
+    div{
+        ul{
+            li{
+                a{
+                    color: white;
+                }
+                a:hover{
+                    color: #FFC66A;
+                    border-bottom: 2px solid;
+                    border-radius: 5px;
+                }
+                .active{
+                    color: #FFC66A;
+                    border-bottom: 2px solid;
+                  }
+            }
+        }
+    }
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navigationMain{
+    position: absolute; width: 100%;
+}

@@ -1,0 +1,242 @@
+.banner_image1{ 
+  position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    right: 0;
+    z-index: -9;
+    margin-top: -75px;
+  }
+  .home_video{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  .row{
+    margin-left: 0; margin-right: 0; max-width: 100%;
+}
+.height256{
+	height: 256px;
+}
+.section1{
+	padding-left: 60px; padding-right: 40px;
+}
+.marginTop15{
+	margin-top: 15%;
+}
+.marginTop30{
+	margin-top: 30%;
+}
+.marginTop40{
+	margin-top: -40%;
+}
+.marginTopPlus40{
+	margin-top: 40%;
+}
+.marginTop70{
+	margin-top: 70%;
+}
+.marginTop25{
+	margin-top: -25%;
+}
+.industriesImg{
+	margin-left: 35%; margin-top: -30%; width: 40%;
+}
+.achievementsImg{
+	width: 40px; padding-bottom: 20px; margin-left: 40%;
+}
+.padding10{
+	padding: 10px;
+}
+.homeContactUsForm{
+	box-shadow:10px -10px 20px 15px rgb(0 0 0 / 10%);
+}
+.homeContactUsFormImg{
+	width: 100%; 
+}
+//carousel CSS Start
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	padding: 0 70px;
+}
+.carousel .carousel-item {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 220px;
+}
+.carousel .carousel-item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+.carousel-control-prev, .carousel-control-next {
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	top: 50%;
+	background: none;
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 68px;
+	line-height: 42px;
+	position: absolute;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 12px;
+	height: 12px;
+	margin: 1px 3px;
+	border-radius: 50%;
+	border: none;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+//Carousel CSS END
+
+//Auto play carousel css start
+
+
+@mixin white-gradient {
+	//background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 40s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+// Styling
+.slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 90%;
+  padding-left: 60px;
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	
+	.slide {
+		height: 100px;
+		width: 250px;
+	}
+}
+//Auto play carousel css end
+
+//bgImg Our Service
+.bgImg2{
+	background: url('./../../assets/home/home\ section\ 1\ BG.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+.bgImg3{
+	background: url('./../../assets/home/Home\ -\ our\ services\ bg.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+.bgImg4{
+	background: url('./../../assets/home/home\ -\ our\ industires\ bg.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+.bgImg5{
+	background: url('./../../assets/home/Home\ -\ our\ achievements\ bg.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+.bgImg6{
+	background: url('./../../assets/home/Home\ -\ blog\ bg.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+ //ourService BG
+ .ourServiceBgImg1{
+	background-image: url('../../assets/home/home\ -\ cloud\ computing.png'); border-color: white; 
+ }
+ .ourServiceBgImg2{
+	background-image: url('../../assets/home/home\ -\ mobile\ app\ development.png'); border-color: white; 
+}
+.ourServiceBgImg3{
+	background-image: url('../../assets/home/home\ -\ Recruitment\ Process.png'); border-color: white; 
+}
+.ourServiceBgImg4{
+	background-image: url('../../assets/home/home\ -\ sales\ force.png'); border-color: white; 
+}
+
+//csr Activities BG
+.csrActivitiesBgImg1{
+	background-image: url('../../assets/home/home - image collage 1.png'); border-color: white;
+}
+.csrActivitiesBgImg2{
+	background-image: url('../../assets/home/home - image collage 2.png'); border-color: white;
+}
+.csrActivitiesBgImg3{
+	background-image: url('../../assets/home/home - image collage 3.png'); border-color: white;
+}
+.csrActivitiesBgImg4{
+	background-image: url('../../assets/home/home - image collage 4.png'); border-color: white;
+}
+.csrActivitiesBgImg5{
+	background-image: url('../../assets/home/home - image collage 5.png'); border-color: white;
+}
+.csrActivitiesBgImg6{
+	background-image: url('../../assets/home/home - image collage 6.png'); border-color: white;
+}

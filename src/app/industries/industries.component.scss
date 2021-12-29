@@ -1,0 +1,75 @@
+a:hover{
+  color: #FFC66A;
+}
+
+.scrolldownfunction{
+  margin-bottom: 40px;
+  border-radius: 15px;
+}
+
+.scrolldownfunction1{
+  height: 337px;
+}
+
+.scrolldownfunction2{
+  height: 480px;
+}
+
+.scrolldownfunction2 .extendbutton{
+  z-index: 9999;
+  position: absolute;
+  bottom: -14px;
+  left: 45%;
+  color: #ffff!important;
+  background-color: orange;
+  border-radius: 50%;
+  border: 2px solid orange;
+}
+
+.scrolldownfunction2 .extendbutton i{
+  color: #ffff;
+ }
+
+.limitTextHeight {
+  height: 100px;
+  overflow: hidden;
+}
+
+.extendbutton{
+  z-index: 9999;
+    position: absolute;
+    bottom: -14px;
+    left: 45%;
+    background-color: #ffff;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+.extendbutton i{
+ color: #F09F0F;
+}
+
+.scrolldownfuncation h5{
+  padding: 10px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-title-big span{
+ color: #F09F0F;
+}
+
+.scrolldownfunction p{
+  padding: 0px 15px;
+}
+.zIndex9999{
+  z-index: 9999;
+}
+//
+.bgImg12{
+  background: url('./../../assets/industries/Industries\ -\ cover\ image.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+.bgImg13{
+  background: url('./../../assets/industries/Industries\ -\ BG.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
