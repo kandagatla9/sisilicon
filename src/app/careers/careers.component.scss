@@ -23,3 +23,16 @@ a:hover{
 .bgImg17{
     background: url('./../../assets/careers/Careers\ -\ Careers\ Opportunities\ BG.png'); background-repeat: no-repeat; background-size: 100% 100%;
 }
+
+li{
+    color: #1C7D99;
+    span{
+        color: #333333;
+    }
+}
+.searchForJobs{
+    ::placeholder {
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+}

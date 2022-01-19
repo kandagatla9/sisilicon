@@ -20,3 +20,77 @@ a:hover{
 .bgImg15{
     background: url('./../../assets/services/Our\ Services\ -\ BG.png'); background-repeat: no-repeat; background-size: 100% 100%;
 }
+
+//onhover service
+.blur {
+    background: rgba(255, 255, 255, 0.2); // Make sure this color has an opacity of less than 1
+    backdrop-filter: blur(18px); // This be the blur
+   
+  }
+.img__wrap {
+    position: relative;
+    width: 100%;
+  }
+
+.img__wrap:hover .img__description {
+   
+    visibility: visible;
+    opacity: 1;
+  }  
+.about-title-big-b4hover{
+    text-align: center!important;
+    position:absolute;
+    top: 45%;
+    color: #f09f0f;
+    font-size: 30px; 
+    left: 10%;
+  }  
+.innerText{
+margin-top: 10%;
+}  
+.Ind-Row-1
+  {
+    width: 100%;
+    height: 325px;
+  
+  }  
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    // background:rgb(56 56 56 / 93%);
+    color: #212529;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }  
+.filp_card{
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 325px;
+    padding: 25px;
+  } 
+.about-title-big{
+    text-align: center!important;
+    font-size: 20px;
+  }   
+  @media (max-width: 768px) {
+    
+    .filp_card{
+      overflow: scroll;
+    }
+  } 
+@media (max-width: 1024px) { 
+    .filp_card {
+      border: 2px solid #fff;
+      background-color: #fff;
+      border-radius: 15px;
+      height: auto;
+      padding: 25px;
+  }
+  }   

@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./careers.component.scss']
 })
 export class CareersComponent implements OnInit {
-
+  openAndClose=false;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  TrueorFalse(){
+    this.openAndClose=!this.openAndClose;
+  }
 }

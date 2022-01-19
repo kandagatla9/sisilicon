@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-4" ngIf="blogList && blogList.length > 0">
+      <img src="../../assets/blog/Thumbnail image blog 1.png" alt="">
+      <p>{{blogList[0].department}}</p>
+      <p>{{blogList[0].title}}</p>
+      <p>{{blogList[0].message}}</p>
+        <div class="row">
+          <div class="col-6">
+            <p>date</p>
+          </div>
+          <div class="col-6">
+            <a href="./blog/viewblog/{{blogList[0]._id}}" class="floatRight">read more</a>
+          </div>
+        </div>
+    </div>
+  </div>

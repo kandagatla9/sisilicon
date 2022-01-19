@@ -12,15 +12,12 @@
   <div class="row paddingTop60 paddingBottom60 rowSide0">
     <div class="col-7 paddingLeft102">
       <p class="sideheaderColor fontBold">careers Opportunities</p>
-      <p class="font32 textBlack fontWeight300">We deal With The Aspects Of Professional IT Services</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-        commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>   
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="font32 textBlack fontWeight300">Imagine, inspire, and forge a new tomorrow. Join our CREW now.</p>
+      <p>Join a team where you can grow & expand your professional experience.
+        Team up with the Silicon and build a future of limitless possibilities.
+        With Silicon innovation and opportunities are not just mere words, they are our core qualities upon which we have built our system over the past 35 years.</p>
+      <p>Digital Transformation through technology is shaping business models industries and outcomes rapidly with rife. Our culture of innovation, collaboration, and engagement leads to building key enablers that catalyses growth and brings about a substantial business impact.</p>   
+        <p>Jumpstart your career or take it to the next level by joining our team and contribute to creating a future with limitless possibilities.</p>
     </div>
     <div class="col-5 rowSide0">
       <div class="row">
@@ -41,33 +38,50 @@
 <!---->
 <div>
   <p class="text-center paddingTop60 sideheaderColor fontBold">Open Positions</p>
-  <p class="textBlack font32 text-center">How Ghy Help of Your Business Grow And Successful</p>
+  <div class="container">
+    <p class="textBlack font32 text-center">Jumpstart your career or take it to the next level, search and apply for opportunities below:</p>
+  </div>
+  
 <!---->
 <div class="container">
   <div class="row">
-    <div class="col-9 paddingBottom20">
-      <input type="text" class="form-control borderRadius8 careerSearchInput" placeholder="Search for jobs">
+    <div class="col-9 paddingBottom20 searchForJobs">
+      <input type="text" class="form-control borderRadius8 careerSearchInput " placeholder="Search for jobs">
     </div>
     <div class="col-3 paddingBottom20">
       <input type="text" class="form-control borderRadius8" placeholder="Location">
     </div>
+    <!--first job post-->
     <div class="col-12  ">
       <div  id="accordionFlushExample">
         <div class="borderRadius8">
           <h2 id="flush-headingOne">
             <button class="borderRadius12 careerAccordianButton"  
-            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" 
+            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" (click)="TrueorFalse()"
             aria-controls="flush-collapseOne">
-              <i class="fa fa-chevron-down floatRight font10"></i>
+              <i *ngIf="!openAndClose" class="fa fa-chevron-down floatRight font10"></i>
+              <i *ngIf="openAndClose" class="fa fa-chevron-up floatRight font10"></i>
               <p class="sideheaderColor fontBold">UX DESIGNER</p>
               <p class="text999999">Job Type: <span class="textBlack">Full-time</span></p>
               <p class="text999999">Location: <span class="textBlack">California City, CA, USA</span></p>
               <p class="text999999">Salary: <span class="textBlack">As Per Company Policy</span></p>
               <p class="text999999">Experience: <span class="textBlack"> 8+ Years</span></p>
               <p class="text999999">Education: <span class="textBlack"> Any Graduate</span></p>
-              <button class="btn btn floatRight careerAccordianApply">Apply Now</button>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div>Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              <button *ngIf="!openAndClose" class="btn btn floatRight careerAccordianApply">Apply Now</button>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" 
+              data-bs-parent="#accordionFlushExample">
+                <div>
+                  <p style="line-height: 1.8;">IvanteQ with remote or on-site jobs on a temporary, project or full-time basis. From roles in software and applications to IT infrastructure and operations, we provide you unparalleled access to exciting career opportunities.</p>
+                  <ul class="font14 textBlack" style="line-height: 2;" >
+                    <li><span>Software Product Development & Management Experience.</span> </li>
+                    <li><span>Experience in preparing product documents including Market Requirement Documents and product use cases to drive product activity.</span></li>
+                    <li><span>Excellent written and verbal communication skills.</span></li>
+                    <li><span>Managing the product life cycle from strategic planning to tactical activities.</span></li>
+                    <li><span>Plan product features and functionalities in coherence with business objectives.</span></li>
+                    <li><span>Work with technical team to structuralize the development process and to ensure that product features are as planned.</span></li>
+                  </ul>
+                </div>
+                <button *ngIf="openAndClose" class="btn btn floatRight careerAccordianApply"  style="background-color: #1C7D99; color: white;">Apply Now</button>
               </div>
             </button>
           </h2>
@@ -75,6 +89,8 @@
         </div>
       </div>
     </div>
+    <!--second job post-->
+   
   </div>
   
 </div>

@@ -1,17 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { FooterComponent } from '../footer/footer.component';
-import { GetAllBlogsService } from './blogServices/Blogs.service';
-import { Blog } from './model/blog';
-
+import { GetAllBlogsService } from './../blogServices/Blogs.service';
+import { Blog } from './../model/blog';
 @Component({
-  selector: 'app-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.scss']
+  selector: 'app-content-blog',
+  templateUrl: './content-blog.component.html',
+  styleUrls: ['./content-blog.component.scss']
 })
-export class BlogComponent implements OnInit {
+export class ContentBlogComponent implements OnInit {
   blogList: Blog[] = [{_id:"", message:"", title:"", department:""}];
   title:any
-  constructor(private getAllBlogs: GetAllBlogsService ) { }
+  constructor(private getAllBlogs: GetAllBlogsService) { }
 
   ngOnInit(){
     const promise = this.getAllBlogs.getAllBlogs();
@@ -25,7 +23,5 @@ export class BlogComponent implements OnInit {
         }
     );
   }
-
-
 
 }

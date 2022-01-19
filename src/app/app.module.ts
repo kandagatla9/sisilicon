@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,9 +9,10 @@ import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { IndustriesComponent } from './industries/industries.component';
 import { ServicesComponent } from './services/services.component';
 import { CareersComponent } from './careers/careers.component';
-import { BlogComponent } from './blog/blog.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './footer/footer.component'; 
+import { RouterModule } from '@angular/router';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -22,15 +23,18 @@ import { FooterComponent } from './footer/footer.component';
     IndustriesComponent,
     ServicesComponent,
     CareersComponent,
-    BlogComponent,
     ContactUsComponent,
-    FooterComponent
+    FooterComponent,
+    BlogComponent
   ],
-  imports: [
+  imports: [ 
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
+  bootstrap: [AppComponent],
+  exports:[FooterComponent]
 })
 export class AppModule { }
